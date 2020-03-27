@@ -10,7 +10,7 @@ import java.util.Map;
 public class DemoController {
     private Map<String, Object> result = new HashMap<>();
 
-    @RequestMapping("/demo1")
+    @RequestMapping("/demo")
     public Map<String, Object> hello() {
         result.put("name", "Tanishq");
         result.put("city", "Kanpur");
