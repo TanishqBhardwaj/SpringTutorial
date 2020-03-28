@@ -1,7 +1,12 @@
 package com.example.springbootdemo.model;
 
+import javax.validation.constraints.NotBlank;
+
 public class Student {
+    @NotBlank(message = "Roll No. can't be empty!")
     public int rollNo;
+
+    @NotBlank(message = "Name can't be empty!")
     public String name;
     public double grade;
 

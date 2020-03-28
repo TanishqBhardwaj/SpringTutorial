@@ -14,7 +14,7 @@ public class StudentController {
     @RequestMapping("/list")
     public String list(Model model) {
         List<Student> list = new ArrayList<>();
-        list.add(new Student(1813021, "Tanishq", 67.0));
+        list.add(new Student(1813021, "Tanishq", 66.0));
         list.add(new Student(1813024, "Utkarsh", 60.0));
         model.addAttribute("list", list);
 
